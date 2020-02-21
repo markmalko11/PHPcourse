@@ -1,0 +1,28 @@
+<?php
+$firstNumber = 5;
+$secondNumber = 6.7;
+$thirdNumber = 5.987;
+echo $firstNumber + $secondNumber;
+echo '<br>';
+echo $secondNumber - $thirdNumber;
+echo '<br>';
+echo $firstNumber / $thirdNumber;
+echo '<br>';
+echo $secondNumber * $firstNumber;
+echo '<hr>';
+echo 'Ceil: ' . ceil($secondNumber);
+echo '<br>';
+echo 'Floor: ' . floor($thirdNumber);
+echo '<br>';
+echo 'Is Numeric ' . is_numeric($secondNumber);
+echo '<br>';
+echo 'Is Float: ' . is_float($firstNumber);
+echo '<br>';
+echo 'Is Integer: ' . is_int($thirdNumber);
+echo '<br>';
+$fourthNumber = 93894;
+echo 'Decbin: ' . decbin($fourthNumber);
+echo '<br>';
+echo 'BinDec: ' . bindec(10110111011000110);
+echo '<br>';
+echo 'FMod: ' . fmod(12, 7);
